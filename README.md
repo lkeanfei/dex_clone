@@ -1,6 +1,6 @@
-# Crypto.com DEX Clone
+# DEX Clone
 
-A decentralized exchange (DEX) clone inspired by Crypto.com and Uniswap V2, built for educational purposes. This project implements a constant product Automated Market Maker (AMM) on an EVM-compatible chain.
+A decentralized exchange (DEX) clone inspired by Uniswap V2, built for educational purposes. This project implements a constant product Automated Market Maker (AMM) on an EVM-compatible chain.
 
 ## Features
 
