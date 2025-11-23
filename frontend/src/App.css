@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #242424;
+  border-bottom: 1px solid #333;
+}
+
+.wallet-connect button {
+  background-color: #1199fa;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.swap-container {
+  background-color: #2c2c2c;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
+
+.arrow {
+  margin: 10px 0;
+  font-size: 1.5em;
+  color: #1199fa;
+}
+
+.btn-swap {
+  width: 100%;
+  padding: 15px;
+  background-color: #1199fa;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-swap:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.btn-mint {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid #555;
+    color: #aaa;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
